@@ -1,0 +1,41 @@
+@import url('/Style/breakpoint/introduction/md.css');
+
+@mixin coverer {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.introduction {
+  background: white;
+  position: relative;
+  padding: 4rem 8.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  &::before {
+    content: "";
+    @include coverer;
+    top: -100vh;
+  }
+
+  .text-introduction {
+    width: 60%;
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: flex-end;
+
+    .img-frame {
+      position: absolute;
+      max-width: 250px;
+      min-width: 50px;
+    }
+  }
+}
+
+

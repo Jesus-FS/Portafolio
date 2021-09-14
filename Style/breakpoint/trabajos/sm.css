@@ -1,0 +1,24 @@
+@media (max-width: 640px) {
+  .works-page {
+    padding-right: 2rem !important;
+  }
+  .home {
+    width: 3em !important;
+    height: 3em !important;
+    left: 15px !important;
+  }
+  .home .fas {
+    font-size: 1.5em !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .text {
+    font-size: 0.6em;
+    text-align: justify;
+  }
+  .fal, .fab {
+    font-size: 1.2em !important;
+  }
+}
+/*# sourceMappingURL=sm.css.map */

@@ -1,0 +1,12 @@
+@media (max-width: 1024px) {
+  .information .information-container .text-container .text p {
+    font-size: 0.9em !important;
+  }
+  .works {
+    padding: 2% !important;
+    width: 40% !important;
+    margin-top: 2% !important;
+    margin-bottom: 5% !important;
+  }
+}
+/*# sourceMappingURL=lg.css.map */

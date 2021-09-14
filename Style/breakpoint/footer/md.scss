@@ -1,0 +1,23 @@
+@media (max-width: 968px) {
+  .footer {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+
+    .whatsapp {
+      margin: 0 20px !important;
+    }
+
+    .container-links  {
+
+      .circle {
+        padding: 0.5% !important;
+        width: 3em !important;
+        height: 3em !important;
+
+        .fab, .fas {
+          font-size: 1.5em !important;
+        }
+      }
+    }
+  }
+}

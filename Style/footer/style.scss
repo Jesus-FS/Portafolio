@@ -1,0 +1,61 @@
+@import url('/Style/breakpoint/footer/md.css');
+
+.footer {
+  padding: 4rem 8.5rem;
+  border-top: 1px dashed black ;
+  text-align: center;
+
+  h1 {
+    background-color: white;
+    color: black;
+    margin: 0;
+  }
+
+  .separate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .line {
+      width: 17%;
+      height: 0.5rem;
+      background-color: #3b83bd;
+      color: transparent;
+      margin-top: 10px;
+    }
+
+    .fas {
+      margin: 10px 10px 0 10px;
+      color: #3b83bd;
+    }
+  }
+
+  .container-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    .circle {
+      background-color: #3b83bd;
+      width: 4em;
+      height: 4em;
+      padding: 1%;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .fab, .fas {
+        font-size: 2em;
+        color: white;
+      }
+    }
+
+    .whatsapp {
+      margin: 0 50px;
+    }
+  }  
+
+  a {
+    text-decoration: none;
+  }
+}

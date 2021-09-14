@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/Style/style.css" />
+    <link rel="stylesheet" href="/Style/studies/style.css" />
+    <link rel="stylesheet" href="/Style/p-carrousel/style.css" />
+    <link rel="stylesheet" href="/Style/c-carrousel/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="studies">
+      <div class="text">
+        <h1>ESTUDIOS QUE ME RESPALDAN</h1>
+        <p>
+          Empezando por Acamica, la plataforma de cursos online donde en la
+          actualidad estoy formándome como desarrollador Fullstack, gracias a
+          esta plataforma he crecido como profesional.   <br /><br />
+          Platzi la plataforma donde senté las bases de aprendizaje en
+          programación y diseño, culminando cursos como Illustrator, Photoshop,
+          desarrollo web, responsive design entre otros. <br /><br />
+          Udemy fue la primera plataforma que me brindo el conocimiento donde
+          así ingreso a este mundo, fue la que hizo conocer las posibilidades
+          que tiene internet para aprender lo que sea. <br /><br />
+          Crehana es donde actualmente mejoro mis habilidades de dibujo, se me
+          hace factible crear los logotipos para ser más versátil a la hora de
+          estar en un equipo de trabajo y brindar mis conocimientos uniendo mis
+          estudios de diseño digital y diseño web.
+          <br /><br />
+          YouTube es mi herramienta aliada he indispensable a la hora de
+          aprender a resolver alguna dificultad de una manera rápida y eficaz.
+        </p>
+
+        <div class="chibi-icon">
+          <img src="/assets/img/studies/acamica.png" alt="acamica" />
+          <img src="/assets/img/studies/platzi.png" alt="platzi" />
+          <img src="/assets/img/studies/udemy.png" alt="udemy" />
+          <img src="/assets/img/studies/crehana.png" alt="crehana" />
+          <img src="/assets/img/studies/youtube.png" alt="youtube" />
+        </div>
+      </div>
+
+      <div class="img-studies">
+        <div class="studies-container">
+          <img
+            class="nav-link"
+            data-bs-toggle="modal"
+            data-bs-target="#miModal"
+            src="/assets/img/studies/acamica.png"
+            alt="acamica"
+          />
+
+          <div
+            class="modal fade"
+            id="miModal"
+            tabindex="-1"
+            aria-hidden="true"
+            aria-labelledby="modalTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div
+                class="modal-content"
+                style="height: 30em; justify-content: center"
+              >
+                <div class="modal-header" style="position: absolute; top: 0">
+                  <h5 class="modal-title" id="modalTitle">Welcome</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="container-modal">
+                  <div class="login">
+                    <div class="title">
+                      <h2 style="text-align: center; color: white">
+                        EN FORMACIÓN
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="studies-container">
+          <img
+            class="nav-link"
+            data-bs-toggle="modal"
+            data-bs-target="#miModal-2"
+            src="/assets/img/studies/platzi.png"
+            alt="platzi"
+          />
+          <div
+            class="modal fade"
+            id="miModal-2"
+            tabindex="-1"
+            aria-hidden="true"
+            aria-labelledby="modalTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" style="color: width" id="modalTitle">
+                    Welcome
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="container-modal">
+                  <div class="login">
+                    <div class="title"></div>
+                  </div>
+                </div>
+
+                <div class="container" id="container">
+                  <div class="carousel">
+                    <div class="item a"></div>
+                    <div class="item b"></div>
+                    <div class="item c"></div>
+                    <div class="item d"></div>
+                    <div class="item e"></div>
+                    <div class="item f"></div>
+                  </div>
+                </div>
+                <div class="button">
+                  <i class="fas fa-chevron-left next" id="next"></i>
+                  <i class="fas fa-chevron-right prev" id="prev"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="studies-container">
+          <img
+            class="nav-link"
+            data-bs-toggle="modal"
+            data-bs-target="#miModal-3"
+            src="/assets/img/studies/udemy.png"
+            alt="udemy"
+          />
+
+          <div
+            class="modal fade"
+            id="miModal-3"
+            tabindex="-1"
+            aria-hidden="true"
+            aria-labelledby="modalTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg">
+              <div
+                class="modal-content"
+                style="
+                  height: 31em;
+                  justify-content: center;
+                  background-image: url(/assets/diplomas/udemy.png);
+                  background-size: cover;
+                "
+              >
+                <div class="modal-header" style="position: absolute; top: 0">
+                  <h5 class="modal-title" id="modalTitle">Welcome</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="studies-container">
+          <img
+            class="nav-link"
+            data-bs-toggle="modal"
+            data-bs-target="#miModal-4"
+            src="/assets/img/studies/crehana.png"
+            alt="crehana"
+          />
+        </div>
+
+        <div
+          class="modal fade"
+          id="miModal-4"
+          tabindex="-1"
+          aria-hidden="true"
+          aria-labelledby="modalTitle"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg">
+            <div
+              class="modal-content"
+              style="height: 30em; justify-content: center"
+            >
+              <div class="modal-header" style="position: absolute; top: 0">
+                <h5 class="modal-title" id="modalTitle">Welcome</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="container-modal">
+                <div class="login">
+                  <div
+                    class="title"
+                    style="display: flex; justify-content: center"
+                  >
+                    <figure class="icon-cards mt-3">
+                      <div class="icon-cards__content">
+                        <div
+                          class="
+                            icon-cards__item
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                          "
+                        >
+                          <span class="h1"></span>
+                        </div>
+                        <div
+                          class="
+                            icon-cards__item
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                          "
+                        >
+                          <span class="h1"></span>
+                        </div>
+                        <div
+                          class="
+                            icon-cards__item
+                            d-flex
+                            align-items-center
+                            justify-content-center
+                          "
+                        >
+                          <span class="h1"></span>
+                        </div>
+                      </div>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="studies-container">
+          <a href="https://www.youtube.com/" target="_blank"
+            ><img src="/assets/img/studies/youtube.png" alt="youtube"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="/js/studies.js"></script>
+    <script src="/js/carrousel.js"></script>
+  </body>
+</html>

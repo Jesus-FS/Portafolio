@@ -1,0 +1,160 @@
+@import url("/Style/breakpoint/trabajos/md.css");
+@import url("/Style/breakpoint/trabajos/sm.css");
+
+.works-page {
+  padding: 4rem 8.5rem;
+
+  .line {
+    width: 7%;
+    height: 0.5rem;
+    background-color: #b10000;
+    margin: 1% 0px;
+    color: transparent;
+  }
+
+  .work {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+
+    .text {
+      margin-left: 5%;
+    }
+
+    .title {
+      background: rgb(255, 255, 255);
+      background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 1) 35%,
+        rgba(0, 212, 255, 0) 100%
+      );
+      width: 150px;
+      writing-mode: vertical-lr;
+      display: flex;
+      position: absolute;
+
+      h1 {
+        margin: 0;
+      }
+    }
+
+    .img-container {
+      img {
+        position: relative;
+        margin-right: 30px;
+        top: 0;
+        width: 121px;
+        z-index: -1;
+      }
+    }
+  }
+}
+
+.fab,
+.far {
+  position: absolute;
+  z-index: 10;
+  left: 280px;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #000;
+
+  &:hover {
+    transition: 0.5s;
+    color: #3b83bd;
+  }
+}
+
+.fal {
+  position: absolute;
+  z-index: 10;
+  left: 280px;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #000;
+  margin-top: 30px;
+
+  &:hover {
+    transition: 0.5s;
+    color: #b10000;
+  }
+}
+
+.fal2 {
+  margin-top: 90px;
+}
+
+.far {
+  &:hover {
+    color: #ffaa00;
+  }
+}
+
+.home {
+  background-color: #b10000;
+  width: 5em;
+  height: 5em;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+
+  .fas {
+    font-size: 3em;
+    color: white;
+  }
+
+  &:hover {
+    transition: 0.5s;
+    transform: translatey(-10px);
+  }
+}
+
+.studies-container {
+  .modal-lg {
+    .modal-content {
+      justify-content: flex-start !important;
+      .modal-header {
+        width: 100%;
+      }
+
+      .container-modal {
+        .c-bolivar {
+          padding: 66px 2% 0 2%;
+          display: flex;
+          align-items: center;
+          p {
+            width: 80%;
+          }
+          .c-img {
+            width: 20%;
+            .body {
+              width: 100%;
+            }
+            .c-logo {
+              display: flex;
+              justify-content: space-around;
+              img {
+                width: 30%;
+              }
+            }
+          }
+        }
+
+        .sos {
+          padding: 66px 2% 0 2%;
+          .sos-img {
+            width: 20%;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

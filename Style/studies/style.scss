@@ -1,0 +1,122 @@
+@import url('/Style/breakpoint/studies/md.css');
+@import url('/Style/breakpoint/studies/sm.css');
+
+.studies {
+  padding: 4rem 8.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  .text {
+    width: 70%;
+
+    p {
+      text-align: justify;
+    }
+
+    .chibi-icon {
+      width: 83%;
+      position: absolute;
+      display: none;
+      justify-content: space-between;
+      margin-top: 30px;  
+  
+      img {
+        width: 10%;
+      }
+    }
+  
+  }
+  .img-studies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-top: 10%;
+
+    .modal-content {
+      background-color: #3838385d;
+      backdrop-filter: blur(10px);
+
+      .modal-header {
+        background-color: white;
+        width: 100%;
+      }
+    }
+
+    .studies-container {
+      display: flex;
+      cursor: pointer;
+      img {
+        width: 200px;
+        position: absolute;
+      }
+    }
+  }
+}
+
+.icon-cards {
+  position: relative;
+	width: 60vw;
+	height: 40vw;
+  max-width: 380px;
+  max-height: 250px;
+  margin: 0;
+  color: white;
+	perspective: 1000px;
+  transform-origin: center;
+
+	&__content {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+    transform-origin: center;
+		transform-style: preserve-3d;
+		transform: translateZ(-30vw) rotateY(0);
+		animation: carousel 20s infinite cubic-bezier(0.77, 0, 0.175, 1) forwards;
+    
+    &.step-animation {
+      animation: carousel 8s infinite steps(1) forwards;
+    }
+	}
+
+	&__item {
+		position: absolute;
+		top: 0;
+		left: 0;
+    right: 0;
+    bottom: 0;
+		width: 60vw;
+		height: 40vw;
+    max-width: 380px;
+    max-height: 250px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.1);
+		border-radius: 6px;
+    transform-origin: center;
+
+		&:nth-child(1) {
+      background-image: url(/assets/diplomas/Crehana1.png);
+      background-size: cover;
+      transform: rotateY(0) translateZ(35vw);
+		}
+
+		&:nth-child(2) {
+      background-image: url(/assets/diplomas/Crehana2.png);
+      background-size: cover;
+      transform: rotateY(120deg) translateZ(35vw);
+		}
+
+		&:nth-child(3) {
+      background-image: url(/assets/diplomas/Crehana3.png);
+      background-size: cover;
+      transform: rotateY(240deg) translateZ(35vw);
+		}
+	}
+}
+
+@keyframes carousel {
+	0%,  17.5%  { transform: translateZ(-35vw) rotateY(0); }
+	27.5%, 45%  { transform: translateZ(-35vw) rotateY(-120deg); }
+	55%, 72.5%  { transform: translateZ(-35vw) rotateY(-240deg); }
+	82.5%, 100% { transform: translateZ(-35vw) rotateY(-360deg); }
+}

@@ -1,0 +1,85 @@
+body {
+
+  .container {
+    margin: 0 auto;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    perspective: 1000px;
+    margin-top: 90px;
+
+
+    .carousel {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      transform-style: preserve-3d;
+      transition: transform 1s;
+
+      .item {
+        display: block;
+        position: absolute;
+        background: #000;
+        width: 250px;
+        height: 200px;
+        line-height: 200px;
+        font-size: 5em;
+        text-align: center;
+        color: #fff;
+        opacity: 0.95;
+        border-radius: 10px;
+      }
+
+      .a {
+        transform: rotateY(0deg) translateZ(250px);
+        background-image: url(/assets/diplomas/bootstrap.png);
+        background-size: cover;
+      }
+      .b {
+        transform: rotateY(60deg) translateZ(250px);
+        background-image: url(/assets/diplomas/desarrollo.png);
+        background-size: cover;
+      }
+      .c {
+        transform: rotateY(120deg) translateZ(250px);
+        background-image: url(/assets/diplomas/illustrator.png);
+        background-size: cover;
+      }
+      .d {
+        transform: rotateY(180deg) translateZ(250px);
+        background-image: url(/assets/diplomas/programacion.png);
+        background-size: cover;
+      }
+      .e {
+        transform: rotateY(240deg) translateZ(250px);
+        background-image: url(/assets/diplomas/responsive.png);
+        background-size: cover;
+      }
+      .f {
+        transform: rotateY(300deg) translateZ(250px);
+        background-image: url(/assets/diplomas/angular.png);
+        background-size: cover;
+      }
+    }
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    
+    .fas {
+      font-size: 3em;
+      color: #fff;
+
+      &:hover {
+        color: #000;
+      }
+    }
+    
+    .prev {
+      margin-left: 25%;
+    }
+  }
+}

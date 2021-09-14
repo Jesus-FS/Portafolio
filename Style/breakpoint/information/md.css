@@ -1,0 +1,26 @@
+@media (max-width: 960px) {
+  .information .information-container {
+    padding: 4rem 4rem 0rem 4rem !important;
+  }
+  .information .information-container .text-container .text h1 {
+    margin-bottom: 0px;
+    font-size: 2.5em;
+  }
+  .information .information-container .text-container .text p {
+    font-size: 0.9em;
+  }
+  .information .information-container .text-container .text .works {
+    font-size: 1em !important;
+    padding: 3%;
+    width: 40% !important;
+    margin-top: 2% !important;
+    margin-bottom: 5% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .information .information-container .text-container .text p {
+    font-size: 0.7em !important;
+  }
+}
+/*# sourceMappingURL=md.css.map */

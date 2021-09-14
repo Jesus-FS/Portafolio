@@ -1,0 +1,94 @@
+@import url("/Style/breakpoint/call-me/lg.css");
+@import url("/Style/breakpoint/call-me/md.css");
+@import url("/Style/breakpoint/call-me/sm.css");
+.call-me {
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, from(white), to(#00d4ff));
+  background: linear-gradient(0deg, white 0%, #00d4ff 100%);
+  -webkit-clip-path: polygon(34% 0, 50% 17%, 67% 0, 84% 17%, 100% 0, 100% 100%, 0 100%, 0 0, 17% 17%);
+          clip-path: polygon(34% 0, 50% 17%, 67% 0, 84% 17%, 100% 0, 100% 100%, 0 100%, 0 0, 17% 17%);
+  width: 100%;
+  padding: 10rem 7rem 2rem 7rem;
+  font-family: "Quicksand";
+}
+
+.call-me .text {
+  text-align: center;
+}
+
+.call-me .text h1 {
+  font-size: 2.5em;
+  margin-top: 50px;
+}
+
+.call-me .text h2 {
+  font-family: 'trump';
+  font-size: 7em;
+}
+
+.call-me .input-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.call-me .input-container .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.call-me .input-container .input .form-group {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.call-me .input-container .input .row {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.call-me .input-container .input .row .col {
+  padding: 0;
+}
+
+.call-me .input-container .input .row .col .name {
+  width: 95%;
+}
+
+.call-me .input-container .input .row .col .last {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.call-me .input-container .input .row .col .country,
+.call-me .input-container .input .row .col .city,
+.call-me .input-container .input .row .col .telephone {
+  width: 90%;
+}
+
+.call-me .input-container .input .row .col .city {
+  margin-left: 5%;
+}
+
+.call-me .input-container .input .row .col .telephone {
+  margin-left: 10%;
+}
+
+.call-me .input-container .input .mb-3 {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

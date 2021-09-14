@@ -1,0 +1,29 @@
+@media (max-width: 960px) {
+  .introduction {
+    padding: 4rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .introduction {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .introduction .text-introduction {
+    width: 100% !important;
+  }
+  .introduction .text-introduction h1 {
+    text-align: center;
+  }
+  .introduction .text-introduction p {
+    text-align: justify;
+  }
+  .introduction .img-container {
+    margin-top: 5%;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=md.css.map */

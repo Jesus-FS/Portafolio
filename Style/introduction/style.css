@@ -1,0 +1,43 @@
+@import url("/Style/breakpoint/introduction/md.css");
+.introduction {
+  background: white;
+  position: relative;
+  padding: 4rem 8.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.introduction::before {
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: -100vh;
+}
+
+.introduction .text-introduction {
+  width: 60%;
+}
+
+.introduction .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.introduction .img-container .img-frame {
+  position: absolute;
+  max-width: 250px;
+  min-width: 50px;
+}
+/*# sourceMappingURL=style.css.map */

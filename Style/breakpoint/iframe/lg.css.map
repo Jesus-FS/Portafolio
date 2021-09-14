@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,MAAM;EACvB,AAAA,KAAK,CAAC;IACJ,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,eAAe;GACxB;EAED,AAAA,KAAK,CAAC;IACJ,MAAM,EAAE,eAAe;GACxB;EAED,AAAA,KAAK,CAAC;IACJ,MAAM,EAAE,eAAe;GACxB",
+    "sources": [
+        "lg.scss"
+    ],
+    "names": [],
+    "file": "lg.css"
+}

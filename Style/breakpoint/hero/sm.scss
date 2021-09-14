@@ -1,0 +1,47 @@
+@media (max-width: 640px) {
+  .hero {
+    .content-hero {
+      .text-hero {
+        h1 {
+          width: 100% !important;
+          text-align: center;
+          justify-content: center !important;
+
+          .far {
+            display: none !important;
+          }
+        }
+
+        .line {
+          width: 100% !important;
+        }
+
+        p {
+          width: 100% !important;
+          text-align: center;
+        }
+
+        .play {
+          width: 100%;
+          margin-top: 10%;
+          justify-content: center;
+          display: flex !important;
+          font-size: 6em;
+          color: #3b83bd;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .hero {
+    .content-hero {
+      .text-hero {
+        h1 {
+          font-size: 3rem !important;
+        }
+      }
+    }
+  }
+}

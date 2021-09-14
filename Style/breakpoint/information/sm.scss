@@ -1,0 +1,36 @@
+@media (max-width: 640px) {
+  .information {
+    .information-container {
+      .hand-img {
+        display: none !important;
+      }
+
+      .images {
+        display: none !important;
+      }
+
+      .text-container {
+        .text {
+          position: relative !important;
+          width: 100% !important;
+          text-align: center;
+
+          .line-container {
+            .line {
+              width: 100% !important;
+            }
+          }
+
+          p {
+            margin-bottom: 5%;
+            font-size: 1em !important;
+          }
+
+          .works {
+            width: 60% !important;
+          }
+        }
+      }
+    }
+  }
+}

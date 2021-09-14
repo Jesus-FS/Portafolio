@@ -1,0 +1,98 @@
+body .container {
+  margin: 0 auto;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  margin-top: 90px;
+}
+
+body .container .carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+body .container .carousel .item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 250px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #fff;
+  opacity: 0.95;
+  border-radius: 10px;
+}
+
+body .container .carousel .a {
+  -webkit-transform: rotateY(0deg) translateZ(250px);
+          transform: rotateY(0deg) translateZ(250px);
+  background-image: url(/assets/diplomas/bootstrap.png);
+  background-size: cover;
+}
+
+body .container .carousel .b {
+  -webkit-transform: rotateY(60deg) translateZ(250px);
+          transform: rotateY(60deg) translateZ(250px);
+  background-image: url(/assets/diplomas/desarrollo.png);
+  background-size: cover;
+}
+
+body .container .carousel .c {
+  -webkit-transform: rotateY(120deg) translateZ(250px);
+          transform: rotateY(120deg) translateZ(250px);
+  background-image: url(/assets/diplomas/illustrator.png);
+  background-size: cover;
+}
+
+body .container .carousel .d {
+  -webkit-transform: rotateY(180deg) translateZ(250px);
+          transform: rotateY(180deg) translateZ(250px);
+  background-image: url(/assets/diplomas/programacion.png);
+  background-size: cover;
+}
+
+body .container .carousel .e {
+  -webkit-transform: rotateY(240deg) translateZ(250px);
+          transform: rotateY(240deg) translateZ(250px);
+  background-image: url(/assets/diplomas/responsive.png);
+  background-size: cover;
+}
+
+body .container .carousel .f {
+  -webkit-transform: rotateY(300deg) translateZ(250px);
+          transform: rotateY(300deg) translateZ(250px);
+  background-image: url(/assets/diplomas/angular.png);
+  background-size: cover;
+}
+
+body .button {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+body .button .fas {
+  font-size: 3em;
+  color: #fff;
+}
+
+body .button .fas:hover {
+  color: #000;
+}
+
+body .button .prev {
+  margin-left: 25%;
+}
+/*# sourceMappingURL=style.css.map */

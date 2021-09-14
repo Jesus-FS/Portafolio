@@ -1,0 +1,29 @@
+@media (max-width: 960px) {
+  .introduction {
+    padding: 4rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .introduction {
+    flex-wrap: wrap;
+
+    .text-introduction {
+      width: 100% !important;
+
+      h1 {
+        text-align: center;
+      }
+
+      p {
+        text-align: justify;
+      }
+    }
+
+    .img-container {
+      margin-top: 5%;
+      justify-content: center !important; 
+      width: 100% !important;
+    }
+  }
+}

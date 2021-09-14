@@ -1,0 +1,13 @@
+@media (max-width: 1024px) {
+  .info {
+    width: 100%;
+    height: 30em !important;
+  }
+  .call {
+    height: 68em !important;
+  }
+  .call {
+    height: 55em !important;
+  }
+}
+/*# sourceMappingURL=lg.css.map */

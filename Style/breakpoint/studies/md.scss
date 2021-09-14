@@ -1,0 +1,40 @@
+@media (max-width: 960px) {
+  .studies {
+    padding: 4rem !important;
+
+    .modal-dialog {
+      max-width: 666px !important;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .modal-content {
+    height: 37em !important;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  .studies {
+
+    .text {
+      width: 100% !important;
+
+      h1 {
+        text-align: center;
+      }
+
+      .chibi-icon, .chibi-point {
+        display: flex !important;
+      }
+    }
+
+    .img-studies {
+      display: none !important;
+    }
+  }
+
+}

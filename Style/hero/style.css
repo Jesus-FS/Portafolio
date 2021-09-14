@@ -1,0 +1,119 @@
+@import url("../breakpoint/hero/sm.css");
+@import url("../breakpoint/hero/md.css");
+@import url("../introduction/style.css");
+.hero {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero .background {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.89);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.hero .navbar {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  padding: 2% 4%;
+  font-family: "trump";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero .navbar h1 {
+  font-size: 3em;
+  color: #3b83bd;
+}
+
+.hero .navbar .fas {
+  font-size: 3em;
+}
+
+.hero,
+.hero video,
+.hero .content-hero {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero video {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.hero .content-hero {
+  z-index: 2;
+  color: white;
+  font-family: "trump";
+}
+
+.hero .content-hero .text-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 8.5rem;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .content-hero .text-hero h1 {
+  font-size: 4.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero .content-hero .text-hero h1 .far {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.5em;
+  color: #3b83bd;
+}
+
+.hero .content-hero .text-hero .line {
+  width: 7%;
+  height: 0.5rem;
+  background-color: #3b83bd;
+  margin: 3% 0px;
+  color: transparent;
+}
+
+.hero .content-hero .text-hero p {
+  width: 70%;
+}
+
+.hero .content-hero .text-hero .play {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

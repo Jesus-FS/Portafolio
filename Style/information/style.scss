@@ -1,0 +1,90 @@
+@import url('/Style/breakpoint/information/lg.css');
+@import url('/Style/breakpoint/information/md.css');
+@import url('/Style/breakpoint/information/sm.css');
+
+.information {
+  color: white;
+  background-color: #1b2a2f;
+
+  .information-container {
+    padding: 4rem 8.5rem 0 8.5rem;
+
+    .hand-img {
+      position: relative;
+      z-index: 2;
+      img {
+        width: 32%;
+        display: block;
+      }
+    }
+
+    .images {
+      display: flex;
+      .slider-cell {
+        width: 28.3%;
+        position: relative;
+
+        img {
+          position: absolute;
+          max-width: 70%;
+          bottom: 0;
+          right: 0;
+          padding-bottom: 47%;
+          border-top-left-radius: 8%;
+          border-bottom-right-radius: 26%;
+          border-top-right-radius: 8%;
+        }
+      }
+    }
+
+    .text-container {
+      text-align: right;
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      .text {
+        position: absolute;
+        width: 65%;
+        bottom: 0;
+        z-index: 3;
+        p {
+          text-align: justify;
+        }
+  
+        .works {
+          background-color: transparent;
+          font-size: 1.5em;
+          font-family: "maison";
+          border: 3px solid white;
+          padding: 3%;
+          width: 40%;
+          margin-top: 5%;
+          color: white;
+          margin-bottom: 10%;
+          border-radius: 5px;
+  
+          &:hover {
+            transition: 1s;
+            background-color: #3b83bd;
+            
+          }
+        }
+  
+        .line-container {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+        }
+        .line {
+          width: 12%;
+          height: 0.5rem;
+          background-color: #3b83bd;
+          margin: 3% 0px;
+          color: transparent;
+          text-align: right;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@media (max-width: 640px) {
+  .intro {
+    height: 37em !important;
+  }
+  .info {
+    width: 100%;
+    height: 28em !important;
+  }
+  .call {
+    height: 72em !important;
+  }
+}
+
+@media (max-width: 460px) {
+  .intro {
+    height: 48em !important;
+  }
+  .info {
+    width: 100%;
+    height: 38em !important;
+  }
+  .call {
+    height: 79em !important;
+  }
+}
+/*# sourceMappingURL=sm.css.map */

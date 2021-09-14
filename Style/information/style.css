@@ -1,0 +1,105 @@
+@import url("/Style/breakpoint/information/lg.css");
+@import url("/Style/breakpoint/information/md.css");
+@import url("/Style/breakpoint/information/sm.css");
+.information {
+  color: white;
+  background-color: #1b2a2f;
+}
+
+.information .information-container {
+  padding: 4rem 8.5rem 0 8.5rem;
+}
+
+.information .information-container .hand-img {
+  position: relative;
+  z-index: 2;
+}
+
+.information .information-container .hand-img img {
+  width: 32%;
+  display: block;
+}
+
+.information .information-container .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.information .information-container .images .slider-cell {
+  width: 28.3%;
+  position: relative;
+}
+
+.information .information-container .images .slider-cell img {
+  position: absolute;
+  max-width: 70%;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 47%;
+  border-top-left-radius: 8%;
+  border-bottom-right-radius: 26%;
+  border-top-right-radius: 8%;
+}
+
+.information .information-container .text-container {
+  text-align: right;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.information .information-container .text-container .text {
+  position: absolute;
+  width: 65%;
+  bottom: 0;
+  z-index: 3;
+}
+
+.information .information-container .text-container .text p {
+  text-align: justify;
+}
+
+.information .information-container .text-container .text .works {
+  background-color: transparent;
+  font-size: 1.5em;
+  font-family: "maison";
+  border: 3px solid white;
+  padding: 3%;
+  width: 40%;
+  margin-top: 5%;
+  color: white;
+  margin-bottom: 10%;
+  border-radius: 5px;
+}
+
+.information .information-container .text-container .text .works:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: #3b83bd;
+}
+
+.information .information-container .text-container .text .line-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.information .information-container .text-container .text .line {
+  width: 12%;
+  height: 0.5rem;
+  background-color: #3b83bd;
+  margin: 3% 0px;
+  color: transparent;
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */

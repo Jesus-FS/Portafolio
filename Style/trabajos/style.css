@@ -1,0 +1,183 @@
+@import url("/Style/breakpoint/trabajos/md.css");
+@import url("/Style/breakpoint/trabajos/sm.css");
+.works-page {
+  padding: 4rem 8.5rem;
+}
+
+.works-page .line {
+  width: 7%;
+  height: 0.5rem;
+  background-color: #b10000;
+  margin: 1% 0px;
+  color: transparent;
+}
+
+.works-page .work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.works-page .work .text {
+  margin-left: 5%;
+}
+
+.works-page .work .title {
+  background: white;
+  background: -webkit-gradient(linear, left top, right top, color-stop(35%, white), to(rgba(0, 212, 255, 0)));
+  background: linear-gradient(90deg, white 35%, rgba(0, 212, 255, 0) 100%);
+  width: 150px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.works-page .work .title h1 {
+  margin: 0;
+}
+
+.works-page .work .img-container img {
+  position: relative;
+  margin-right: 30px;
+  top: 0;
+  width: 121px;
+  z-index: -1;
+}
+
+.fab,
+.far {
+  position: absolute;
+  z-index: 10;
+  left: 280px;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #000;
+}
+
+.fab:hover,
+.far:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #3b83bd;
+}
+
+.fal {
+  position: absolute;
+  z-index: 10;
+  left: 280px;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #000;
+  margin-top: 30px;
+}
+
+.fal:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #b10000;
+}
+
+.fal2 {
+  margin-top: 90px;
+}
+
+.far:hover {
+  color: #ffaa00;
+}
+
+.home {
+  background-color: #b10000;
+  width: 5em;
+  height: 5em;
+  padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.home .fas {
+  font-size: 3em;
+  color: white;
+}
+
+.home:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translatey(-10px);
+          transform: translatey(-10px);
+}
+
+.studies-container .modal-lg .modal-content {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
+
+.studies-container .modal-lg .modal-content .modal-header {
+  width: 100%;
+}
+
+.studies-container .modal-lg .modal-content .container-modal .c-bolivar {
+  padding: 66px 2% 0 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.studies-container .modal-lg .modal-content .container-modal .c-bolivar p {
+  width: 80%;
+}
+
+.studies-container .modal-lg .modal-content .container-modal .c-bolivar .c-img {
+  width: 20%;
+}
+
+.studies-container .modal-lg .modal-content .container-modal .c-bolivar .c-img .body {
+  width: 100%;
+}
+
+.studies-container .modal-lg .modal-content .container-modal .c-bolivar .c-img .c-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.studies-container .modal-lg .modal-content .container-modal .c-bolivar .c-img .c-logo img {
+  width: 30%;
+}
+
+.studies-container .modal-lg .modal-content .container-modal .sos {
+  padding: 66px 2% 0 2%;
+}
+
+.studies-container .modal-lg .modal-content .container-modal .sos .sos-img {
+  width: 20%;
+}
+
+.studies-container .modal-lg .modal-content .container-modal .sos .sos-img img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

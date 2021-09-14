@@ -1,0 +1,78 @@
+@import url("/Style/breakpoint/footer/md.css");
+.footer {
+  padding: 4rem 8.5rem;
+  border-top: 1px dashed black;
+  text-align: center;
+}
+
+.footer h1 {
+  background-color: white;
+  color: black;
+  margin: 0;
+}
+
+.footer .separate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .separate .line {
+  width: 17%;
+  height: 0.5rem;
+  background-color: #3b83bd;
+  color: transparent;
+  margin-top: 10px;
+}
+
+.footer .separate .fas {
+  margin: 10px 10px 0 10px;
+  color: #3b83bd;
+}
+
+.footer .container-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.footer .container-links .circle {
+  background-color: #3b83bd;
+  width: 4em;
+  height: 4em;
+  padding: 1%;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .container-links .circle .fab, .footer .container-links .circle .fas {
+  font-size: 2em;
+  color: white;
+}
+
+.footer .container-links .whatsapp {
+  margin: 0 50px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

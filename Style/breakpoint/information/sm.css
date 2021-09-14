@@ -1,0 +1,24 @@
+@media (max-width: 640px) {
+  .information .information-container .hand-img {
+    display: none !important;
+  }
+  .information .information-container .images {
+    display: none !important;
+  }
+  .information .information-container .text-container .text {
+    position: relative !important;
+    width: 100% !important;
+    text-align: center;
+  }
+  .information .information-container .text-container .text .line-container .line {
+    width: 100% !important;
+  }
+  .information .information-container .text-container .text p {
+    margin-bottom: 5%;
+    font-size: 1em !important;
+  }
+  .information .information-container .text-container .text .works {
+    width: 60% !important;
+  }
+}
+/*# sourceMappingURL=sm.css.map */

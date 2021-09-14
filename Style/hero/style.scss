@@ -1,0 +1,98 @@
+@import url("../breakpoint/hero/sm.css");
+@import url("../breakpoint/hero/md.css");
+@import url("../introduction/style.css");
+
+@mixin coverer {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+
+  .background {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.890);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+  }
+
+  .navbar {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    padding: 2% 4%;
+    font-family: "trump";
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 3em;
+      color: #3b83bd;
+    }
+
+    .fas {
+      font-size: 3em;
+    }
+  }
+
+  &,
+  video,
+  .content-hero {
+    @include coverer;
+  }
+  video {
+    filter: grayscale(100%);
+    object-fit: cover;
+  }
+  .content-hero {
+    z-index: 2;
+    color: white;
+    font-family: "trump";
+
+    .text-hero {
+      display: flex;
+      flex-direction: column;
+      padding: 8.5rem;
+      height: 100vh;
+      justify-content: center;
+
+      h1 {
+        font-size: 4.75rem;
+        display: flex;
+        justify-content: space-between;
+
+        .far {
+          display: flex;
+          align-items: center;
+          font-size: 2.5em;
+          color: #3b83bd;
+        }
+      }
+
+      .line {
+        width: 7%;
+        height: 0.5rem;
+        background-color: #3b83bd;
+        margin: 3% 0px;
+        color: transparent;
+      }
+
+      p {
+        width: 70%;
+      }
+
+      .play {
+        display: none;
+      }
+    }
+  }
+}
