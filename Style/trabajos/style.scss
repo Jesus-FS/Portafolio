@@ -14,7 +14,7 @@
 
   .work {
     display: flex;
-    margin-top: 30px;
+    margin-top: 60px;
     align-items: center;
 
     .text {
@@ -127,13 +127,17 @@
           padding: 66px 2% 0 2%;
           display: flex;
           align-items: center;
-          p {
-            width: 80%;
+
+          .text {
+            display: flex;
+            flex-direction: column;
+            margin-left: 55px;
           }
+
           .c-img {
-            width: 20%;
+            width: 40%;
             .body {
-              width: 100%;
+              width: 100px;
             }
             .c-logo {
               display: flex;
@@ -146,15 +150,66 @@
         }
 
         .sos {
-          padding: 66px 2% 0 2%;
+          padding: 30px 2% 0 2%;
+          display: flex;
+          align-items: center;
           .sos-img {
-            width: 20%;
+            width: 40%;
             img {
-              width: 100%;
+              width: 120px;
             }
+            .sos-card {
+              display: flex;
+              margin-top: 10px;
+              justify-content: space-around;
+              img {
+                width: 35%;
+              }
+            }
+          }
+          .text {
+            margin-left: 30px;
+          }
+        }
+
+        .personnel {
+          padding: 30px 2% 0 2%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .p-img {
+            width: 29%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+              width: 90px;
+            }
+            .p-logo {
+              display: flex;
+              margin-top: 10px;
+              img {
+                width: 20%;
+              }
+              .two,
+              .three {
+                margin-left: 18px;
+              }
+            }
+          }
+          .text {
+            margin-left: 30px;
           }
         }
       }
     }
+  }
+
+  p {
+    font-family: 'Quicksand';
+  }
+
+  h4 {
+    font-family: "trump";
   }
 }

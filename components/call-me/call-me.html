@@ -23,7 +23,7 @@
         ¡EMPECEMOS A TRABAJAR YA!
       </h2>
     </div>
-    <div class="input-container">
+    <form class="form input-container" id="form" action="https://formspree.io/f/mrgrjega" method="POST">
       <div class="input">
         <div class="row">
           <div class="col">
@@ -32,6 +32,9 @@
               class="form-control name"
               placeholder="Nombre"
               aria-label="First name"
+              for="name"
+              name="name"
+              id="name"
             />
           </div>
           <div class="col">
@@ -40,6 +43,9 @@
               class="form-control last"
               placeholder="Apellido"
               aria-label="Last name"
+              for="last"
+              name="last"
+              id="last"
             />
           </div>
         </div>
@@ -50,6 +56,9 @@
             class="form-control"
             aria-describedby="companylHelp"
             placeholder="compañia"
+            for="company"
+            name="company"
+            id="company"
           />
         </div>
 
@@ -57,9 +66,12 @@
           <input
             type="email"
             class="form-control"
-            id="exampleInputEmail1"
+            
             aria-describedby="emailHelp"
             placeholder="Email"
+            for="email"
+            name="email"
+            id="email"
           />
         </div>
 
@@ -70,6 +82,9 @@
               class="form-control country"
               placeholder="Pais"
               aria-label="country"
+              for="country"
+              name="country"
+              id="country"
             />
           </div>
           <div class="col">
@@ -78,6 +93,9 @@
               class="form-control city"
               placeholder="Ciudad"
               aria-label="city"
+              for="city"
+              name="city"
+              id="city"
             />
           </div>
 
@@ -87,6 +105,9 @@
               class="form-control telephone"
               placeholder="Telefono"
               aria-label="telephone"
+              for="telephone"
+              name="telephone"
+              id="telephone"
             />
           </div>
         </div>
@@ -95,12 +116,16 @@
           <textarea
             class="form-control"
             placeholder="Mensaje"
-            id="exampleFormControlTextarea1"
             rows="3"
+            for="message"
+            name="message"
+            id="message"
           ></textarea>
         </div>
+        <button class="btn" style="background-color: #27DAFF; width: 100%; font-weight: 700;" type="submit">Enviar</button>
       </div>
-    </div>
+    </form>
   </section>
+  <script src="/js/form.js"></script>
 </body>
 </html>

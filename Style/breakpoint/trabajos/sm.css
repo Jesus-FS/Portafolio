@@ -10,6 +10,9 @@
   .home .fas {
     font-size: 1.5em !important;
   }
+  .studies-container .modal-lg .modal-content {
+    height: 42em !important;
+  }
 }
 
 @media (max-width: 500px) {

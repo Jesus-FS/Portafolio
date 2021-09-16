@@ -9,5 +9,11 @@
   .fal {
     left: 200px !important;
   }
+  .studies-container .modal-lg .modal-content {
+    height: 45em !important;
+  }
+  .personnel .text {
+    margin-left: 60px !important;
+  }
 }
 /*# sourceMappingURL=md.css.map */
