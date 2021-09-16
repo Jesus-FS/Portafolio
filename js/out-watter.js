@@ -1,11 +1,5 @@
-<script type="text/javascript">
-		
-		document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
+  let allDivs = document.querySelectorAll("div");
 
-			let allDivs = document.querySelectorAll("div")
-
-			allDivs[allDivs.length-1].innerHTML = ""
-	
-		}) 
-		
-	</script>
+  allDivs[allDivs.length - 1].innerHTML = "";
+});
